@@ -23,7 +23,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .App-link {
@@ -51,4 +51,27 @@
   background-color: #000080;
   font-size: 30px;
   color: #ffffff;
+}
+
+.User-info{
+  display: inline-block;
+  width: auto;
+  color:#000000;
+  border-radius: 20px;
+  padding:0 30px 30px;
+  margin: 0px 20px;
+}
+
+.photoWrapper {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  border: 1px solid #abd1c6;
+  display: inline-block;
+}
+
+.avatar {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
 }
