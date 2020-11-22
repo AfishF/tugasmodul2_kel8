@@ -53,20 +53,21 @@
   color: #ffffff;
 }
 
+
 .User-info{
   display: inline-block;
   width: auto;
   color:#000000;
   border-radius: 20px;
-  padding:0 30px 30px;
-  margin: 0px 20px;
+  padding:50px 30px 30px;
+  margin: 50px 20px;
 }
 
 .photoWrapper {
   height: 100px;
   width: 100px;
   border-radius: 50px;
-  border: 1px solid #abd1c6;
+  border: 0px solid #abd1c6;
   display: inline-block;
 }
 

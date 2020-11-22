@@ -15,8 +15,8 @@ function Square(props) {
             <form action="">
                 <Select>
                     <option value="">Kelas</option>
-                    <option value="1">RSBK</option>
-                    <option value="2">Multimedia</option>
+                    <option value="1">Praktikum RSBK</option>
+                    <option value="2">Praktikum Multimedia</option>
                 </Select>
             </form>
         </div>
@@ -31,10 +31,10 @@ export default class CardSaya extends Component {
         return (
             <div className="wrapper">
                 <div className="User-info" style={background}  >
-                    <Square nama="Abbiyu K.D." nim="21120117140010" img={Abbiyu} />
+                    <Square nama="Abbiyu Kirana D." nim="21120117140010" img={Abbiyu} />
                 </div>
                 <div className="User-info" style={background}  >
-                    <Square nama="M. Afishal F." nim="21120117130044" img={Afishal} />
+                    <Square nama="M. Afishal Fakhri" nim="21120117130044" img={Afishal} />
                 </div>
             </div>
         )
