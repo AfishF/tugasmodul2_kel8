@@ -1,8 +1,7 @@
 import React from "react";
-import { Layout } from "antd";
+import { Row, Col, Layout } from "antd";
 import "./App.css";
 import CardSaya from './components/CardSaya';
-import Select from './elements/Select';
 import Button from './elements/buttonlink';
 
 
@@ -12,25 +11,18 @@ function App() {
   return (
     <Layout className="layout">
       <Header className="navbar">
-        <p>Kelompok 8</p>
-        <div>
-          <Button>Abbiyu</Button>
-          <Button>Afishal</Button>
-        </div>
+        <Row>
+          <Col span={8}>Kelompok 8</Col>
+          <Col span={8} offset={8} style={{ textAlign: "right" }}><Button><a style={{ color: "white" }}>Abbiyu</a></Button>
+            <Button><a style={{ color: "white" }}>Afishal</a></Button></Col>
+        </Row>
       </Header>
       <Content className="content" style={{ textAlign: "center" }}>
         <CardSaya bgcolor="#dedede">
-          <form action="">
-            <Select>
-              <option value="">Kelas</option>
-              <option value="1">Praktikum RSBK</option>
-              <option value="2">Praktikum Multimedia</option>
-            </Select>
-          </form>
         </CardSaya>
       </Content>
       <Footer style={{ textAlign: "center" }}>
-        Ant Design ©2018 Created by Ant UED
+        ©2018 Created by Kelompok 8
  </Footer>
     </Layout >
   );

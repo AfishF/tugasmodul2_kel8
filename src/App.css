@@ -51,6 +51,7 @@
   background-color: #000080;
   font-size: 30px;
   color: #ffffff;
+  min-height: 100px;
 }
 
 
@@ -75,4 +76,16 @@
   height: 100px;
   width: 100px;
   border-radius: 50px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
